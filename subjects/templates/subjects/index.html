@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Subject list</title>
+</head>
+<body>
+	<ul>
+	{% for obj in object_list %}
+		<li>
+		{{ obj.title }}
+		</li>
+	{% endfor %}
+	</ul>
+	
+</body>
+</html>
